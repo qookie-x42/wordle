@@ -1,0 +1,37 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 8px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.row {
+    display: inherit;
+    justify-content: center;
+    gap: 6px;
+    width: inherit;
+}
+.key {
+    font-weight: bold;
+    padding: 0 18px;
+    border: none;
+    height: 58px;
+    cursor: pointer;
+    background: #818384;
+    color: #fff;
+    font-size: 1.1rem;
+    flex: 1;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.correct {
+    background: #538d4e;
+}
+.present {
+    background: #b59f3b;
+}
+.absent {
+    background: #3a3a3c;
+}

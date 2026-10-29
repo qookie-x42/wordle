@@ -1,0 +1,43 @@
+table {
+    margin: 0 auto 20px;
+    border-spacing: 5px;
+    padding: 10px;
+}
+tr {
+    border-spacing: inherit;
+}
+td {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #636569;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background 0.15s ease;
+}
+.correct {
+    background: #538d4e;
+}
+.present {
+    background: #b59f3b;
+}
+.absent {
+    background: #3a3a3c;
+}
+td:not(:empty) {
+    animation: pop 0.1s ease;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
