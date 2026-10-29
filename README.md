@@ -4,3 +4,5 @@
 This project is a remake of the famous guessing game Wordle, but every time
 the user loads the page, a new word is selected by Random Word API.
 The whole project is written in React with JavaScript.
+
+It can be found here: https://qookie-wordle.netlify.app/
