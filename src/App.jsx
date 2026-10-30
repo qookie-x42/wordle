@@ -32,12 +32,14 @@ export function App() {
             alert("Congratulations, you have won!");
           }, 200);
           setIsGameOver(true);
+          location.reload();
         }
         else if(guesses.length == 5){
           setTimeout(() => {
             alert(`The mystery word was: ${solution}\nYou'll get it next time :)`);
           }, 200);
           setIsGameOver(true);
+          location.reload();
         }
       } else {
         return;
